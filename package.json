@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ember-axios": "^0.0.3"
+  }
+}
