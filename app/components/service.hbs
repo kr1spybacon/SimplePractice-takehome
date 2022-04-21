@@ -1,0 +1,9 @@
+<div class="container-horizontal">
+  <div class="service-container">
+    <h4>{{@service.description}}</h4>
+    <p>{{@service.duration}} minutes</p>
+  </div>
+  <div class="sevice-button-container">
+    <LinkTo @route='service' @model={{@service.id}} class="button">Select</LinkTo>
+  </div>
+</div>
